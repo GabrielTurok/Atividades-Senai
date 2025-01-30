@@ -1,3 +1,4 @@
+*Roblox.txt
 target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
@@ -33,6 +34,7 @@ build/
 
 ### VS Code ###
 .vscode/
+.vscode
 
 ### Mac OS ###
 .DS_Store
