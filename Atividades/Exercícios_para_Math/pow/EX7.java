@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class EX7 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
         System.out.println(Math.pow(0.5,2));
     }
 }
