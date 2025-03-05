@@ -1,4 +1,4 @@
-package ATIVIADES_RECESSO;
+package ATIVIADES_RECESSO.ATV01;
 
 import java.util.Scanner;
 

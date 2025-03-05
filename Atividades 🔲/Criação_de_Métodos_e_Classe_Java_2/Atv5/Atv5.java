@@ -1,5 +1,7 @@
 package Criação_de_Métodos_e_Classe_Java_2.Atv5;
 
+import java.util.Scanner;
+
 public class Atv5{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
