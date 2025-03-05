@@ -26,10 +26,10 @@ public class Atv3 {
         }while(nota03 > 35);
 
         Obj3 obj = new Obj3(nota01, nota02, nota03);
-        double nfinal = obj.calcularnotafinal();
+        double nfinal = obj.cnfinal();
 
         System.out.println("FINAL GRADE = " + nfinal);
-        System.out.println(obj.VerificarAprovacao());
+        System.out.println(obj.Aprovacao());
         if (nfinal < 60.0) {
             System.out.println(obj.quantospontosfaltam());
         }else {

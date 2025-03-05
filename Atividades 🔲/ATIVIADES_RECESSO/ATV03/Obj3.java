@@ -10,14 +10,14 @@ public class Obj3 {
         this.nota03 = nota03;
     }
 
-    public double calcularnotafinal() {
+    public double cnfinal() {
         double resultado = nota01+nota02+nota03;
         return resultado;
     }
 
 
-    public String VerificarAprovacao(){
-        double resultado = calcularnotafinal();
+    public String Aprovacao(){
+        double resultado = cnfinal();
         String r;
 
         if(resultado > 60.0){
@@ -29,7 +29,7 @@ public class Obj3 {
     }
 
     public String quantospontosfaltam(){
-        double resultado = calcularnotafinal();
+        double resultado = cnfinal();
             resultado = 60.0 - resultado;
         String r = "MISSING " + resultado + " POINTS";
         return r;
